@@ -22,7 +22,7 @@ main {
         padding: 10px 20px; } }
     .main-header .container .main-logo img {
       width: auto;
-      height: 32px;
+      height: 35px;
       margin-left: 20px; }
     .main-header .container .main-navigation {
       display: inline-block;
@@ -54,7 +54,7 @@ main {
         text-align: center;
         padding-top: 20px;
         position: absolute;
-        top: 60px;
+        top: 55px;
         left: 0; }
         .main-header .container .main-navigation.active li {
           padding: 4% 0;
@@ -80,7 +80,8 @@ main {
     .main-header .container .burger-menu {
       position: relative;
       right: 0px;
-      width: 20px;
+      top: -2px;
+      width: 30px;
       height: 100%;
       cursor: pointer;
       display: none; }
@@ -100,7 +101,7 @@ main {
       background: #B8EDF8;
       width: 100%;
       height: 3px;
-      top: 5px;
+      top: 8px;
       content: "";
       display: block; }
     .main-header .container .burger::after {
@@ -108,7 +109,7 @@ main {
       background: #B8EDF8;
       width: 100%;
       height: 3px;
-      bottom: 5px;
+      bottom: 8px;
       content: "";
       display: block; }
     .main-header .container .burger::after, .main-header .container .burger::before, .main-header .container .burger {
@@ -124,7 +125,7 @@ main {
       top: 0px; }
     .main-header .container .burger-menu.menu-on .burger {
       background: rgba(111, 111, 111, 0);
-      width: 22px; }
+      width: 30px; }
     .main-header .container .burger {
       display: none; }
       @media (max-width: 1000px) {
@@ -132,7 +133,7 @@ main {
           display: block; } }
 
 .active-nav {
-  height: 10vh; }
+  height: 8vh; }
   .active-nav .container {
     display: flex; }
 
