@@ -32,12 +32,12 @@ main {
         padding-right: 30px;
         font-family: 'BPG Glaho WEB Caps';
         font-size: 20px;
-        color: black; }
+        color: white; }
         @media (max-width: 1000px) {
           .main-header .container .main-navigation li {
             display: none; } }
         .main-header .container .main-navigation li a {
-          color: black;
+          color: white;
           -webkit-transition: 0.2s;
           -moz-transition: 0.2s;
           -o-transition: 0.2s;
@@ -58,10 +58,15 @@ main {
         left: 0; }
         .main-header .container .main-navigation.active li {
           padding: 4% 0;
-          display: block; }
+          display: block;
+          color: black; }
           @media (max-width: 600px) {
             .main-header .container .main-navigation.active li {
               padding: 8% 0; } }
+          .main-header .container .main-navigation.active li a {
+            color: black; }
+          .main-header .container .main-navigation.active li :hover {
+            color: white; }
     .main-header .container .height-line {
       display: none;
       position: absolute;

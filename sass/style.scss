@@ -45,12 +45,12 @@ main{
             padding-right:30px;
             font-family: 'BPG Glaho WEB Caps';
             font-size: 20px;
-            color:black;
+            color:white;
             @media (max-width:1000px) {
                 display: none;
             }
             a{
-                color: black;
+                color: white;
                 @include transition;
             }    
             :hover{
@@ -74,9 +74,16 @@ main{
             li{
                 padding: 4% 0;
                 display: block;
+                color: black;
                 
                 @media (max-width:600px) {
                     padding: 8% 0;
+                }
+                a{
+                    color: black;
+                }
+                :hover{
+                    color:white;
                 }
             }
         }
