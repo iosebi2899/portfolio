@@ -508,3 +508,7 @@ footer .footer {
 
 .fourth .break-line {
   background-color: #B8EDF8; }
+
+.second .image-container div a {
+  color: black;
+  text-decoration: none; }
