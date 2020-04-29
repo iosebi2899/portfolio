@@ -54,7 +54,7 @@ main {
         text-align: center;
         padding-top: 20px;
         position: absolute;
-        top: 55px;
+        top: 50px;
         left: 0; }
         .main-header .container .main-navigation.active li {
           padding: 4% 0;
@@ -133,7 +133,7 @@ main {
           display: block; } }
 
 .active-nav {
-  height: 8vh; }
+  height: 9vh; }
   .active-nav .container {
     display: flex; }
 
