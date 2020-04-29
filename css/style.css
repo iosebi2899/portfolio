@@ -371,9 +371,9 @@ main .main-banner {
         top: 60%;
         left: 50%;
         transform: translateX(-50%);
-        width: 100%; }
-        .second .image-container .hover h1 a {
-          color: black; }
+        width: 100%;
+        text-decoration: none;
+        color: black; }
       @media (max-width: 1000px) {
         .second .image-container .hover {
           display: none; } }

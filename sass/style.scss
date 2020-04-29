@@ -424,9 +424,8 @@ main{
                     left: 50%;
                     transform: translateX(-50%);
                     width: 100%;
-                    a  {
-                        color: black;
-                    }
+                    text-decoration: none;
+                    color: black;
                 }
                 @media (max-width:1000px){
                     display: none;
