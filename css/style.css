@@ -133,7 +133,7 @@ main {
           display: block; } }
 
 .active-nav {
-  height: 9vh; }
+  height: 68px; }
   .active-nav .container {
     display: flex; }
 
@@ -312,7 +312,6 @@ main .main-banner {
     .second .image-container div {
       position: relative;
       width: 30.33333%;
-      margin-right: 33px;
       margin-top: 30px;
       -webkit-transition: 0.2s;
       -moz-transition: 0.2s;
@@ -326,7 +325,8 @@ main .main-banner {
       .second .image-container div img {
         width: 100%;
         height: auto;
-        border: 1px solid #B8EDF8; }
+        border: 1px solid #B8EDF8;
+        box-sizing: border-box; }
       .second .image-container div:hover .hover {
         opacity: 1; }
       @media (max-width: 1000px) {
@@ -345,17 +345,17 @@ main .main-banner {
     .second .image-container .hover {
       opacity: 0;
       background-color: rgba(184, 237, 248, 0.7);
-      width: 101%;
-      height: 99%;
+      width: 100%;
+      height: 98%;
       position: absolute;
-      bottom: 1%;
-      left: 50%;
-      transform: translateX(-50%);
+      top: 0;
       text-align: center;
       -webkit-transition: 0.2s;
       -moz-transition: 0.2s;
       -o-transition: 0.2s;
-      transition: 0.2s; }
+      transition: 0.2s;
+      margin: 0;
+      padding: 0; }
       .second .image-container .hover img {
         position: absolute;
         bottom: 50%;
@@ -368,7 +368,7 @@ main .main-banner {
         position: absolute;
         font-family: 'BPG Glaho WEB Caps';
         font-size: 18px;
-        top: 60%;
+        bottom: 25%;
         left: 50%;
         transform: translateX(-50%);
         width: 100%;

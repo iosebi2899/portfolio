@@ -166,7 +166,7 @@ main{
 }
 }
 .active-nav{
-    height:9vh;
+    height:68px;
     .container{
         display: flex;
     }
@@ -357,7 +357,6 @@ main{
         div{
             position: relative;
             width: $article-width;
-            margin-right: 33px;
             margin-top:30px;
             @include transition;
             h2{
@@ -370,6 +369,7 @@ main{
                 width: 100%;
                 height: auto;
                 border: 1px solid #B8EDF8;
+                box-sizing: border-box;
             }
             &:hover{
                 .hover{
@@ -398,14 +398,14 @@ main{
             .hover{
                 opacity: 0;
                 background-color:rgba($color: #B8EDF8, $alpha: 0.7);
-                width: 101%;
-                height: 99%;
+                width: 100%;
+                height: 98%;
                 position: absolute;
-                bottom:1%;
-                left: 50%;
-                transform: translateX(-50%);
+                top:0;
                 text-align: center;
                 @include transition;
+                margin: 0;
+                padding: 0;
 
                 img{
                     position: absolute;
@@ -420,7 +420,7 @@ main{
                     position: absolute;
                     font-family: 'BPG Glaho WEB Caps';
                     font-size: 18px;
-                    top: 60%;
+                    bottom: 25%;
                     left: 50%;
                     transform: translateX(-50%);
                     width: 100%;
